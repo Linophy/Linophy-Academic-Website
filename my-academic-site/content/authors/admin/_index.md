@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Linophy Uchush
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Linophy
+last_name: Uchush
 
 # Pronouns (optional)
 pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,150 +23,134 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Currently Specially-Appointed Assistant Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Hiroshima University
+    url: https://seeds.office.hiroshima-u.ac.jp/profile/en.9ef6b33ca48069ad520e17560c007669.html
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'nguyenma@hiroshima-u.ac.jp'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/alexjohnsonai
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0002-7633-9938
+  - icon: 
+    url: 
+  - icon: 
+    url: 
+  - icon: 
+    url: 
+  - icon: 
+    url: 
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Reading
+  - Exploring scientific gaps
+  - Formulating technical protocols
+  - Podcast Listening
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: PhD in Plant Biology
+    institution: University of Alberta
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2015
+    date_end: 2022
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      TBD
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+      text: TBD
+      url: TBD
+  
+  - area: BS Molecular Genetics
+    institution: University of Alberta
     icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+    date_start: 2011
+    date_end: 2014
     summary: |
-      GPA: 4.0/4.0
+      TBD
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: TBD
+    company_name: TBD
+    company_url: TBD
     icon: ''
-    date_start: 2020-01-01
+    date_start: 
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+    TBD
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: TBD
         description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
+        percent: 
+        icon: 
+      - name: M
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+        percent: 
+        icon: 
+      - name: 
         description: ''
-        percent: 85
-        icon: cloud
+        percent: 
+        icon: 
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Reading
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        icon: 
+      - name: Podcast Listening
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: 
+      - name: Thinking
         description: ''
         percent: 70
-        icon: book-open
+        icon: 
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Vietnamese
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
+  - title: TBD
+    url: 
+    date: 
+    awarder: 
+    icon: 
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+      
+  - title: TBD
+    url: 
+    date: 
+    awarder: 
+    icon: 
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
+     
+  - title: TBD
+    url: 
+    date: 
+    awarder: 
+    icon: 
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I consider myself a plant biologist, investigating how auxin polar transport, signaling, and plasmodesmata-mediated movement coordinate cell–tissue polarity and vascular patterning across two- and three-dimensional networks, while also exploring how lipid-based chemical priming confers abiotic stress tolerance and establishes stress memory. My current work, using Arabidopsis, rice, and the common ice plant (Mesembryanthemum crystallinum), integrates molecular genetics, chemical perturbation, and quantitative confocal imaging to elucidate how auxin and lipid-derived signaling together shape adaptive plant architectures under developmental and environmental cues. I also maintain a keen interest in identifying technical bottlenecks and devising practical methodological solutions that improve experimental precision and reproducibility.

@@ -10,7 +10,7 @@ first_name: Linophy
 last_name: Uchush
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns:
 
 # Status emoji
 status:

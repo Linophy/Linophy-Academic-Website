@@ -49,7 +49,9 @@ jobs:
         env:
           # Tell Hugo to use the configured BaseURL
           HUGO_BASEURL: ${{ steps.pages.outputs.base_url }}
-        run: hugo --gc --minify
+        run: |
+          npm install
+          hugo --gc --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

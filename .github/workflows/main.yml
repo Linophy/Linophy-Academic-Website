@@ -21,7 +21,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.120.4 # Use a modern Hugo version
+      HUGO_VERSION: 0.128.2 # Use the latest stable version compatible with theme
     steps:
       - name: Checkout
         uses: actions/checkout@v4

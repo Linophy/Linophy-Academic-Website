@@ -33,21 +33,17 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      # THIS IS THE CRUCIAL FIX: Setting up the Node.js environment explicitly
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      # 1. SETUP: Handles Hugo, Node, NPM, and caching automatically
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          node-version: 20 # Use a stable LTS version
-          cache: 'npm'
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true # Essential for the Academic Theme
+          npm: true # Install NPM dependencies from package.json
 
-      - name: Install Hugo
-        run: |
-          mkdir -p $HOME/bin
-          curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-amd64.tar.gz | tar -xz -C $HOME/bin
-          echo "$HOME/bin" >> $GITHUB_PATH
-
-      - name: Install Node.js dependencies
-        run: npm install
+      # 2. INIT: Forces dependency files into the root where Hugo expects them
+      - name: Initialize Theme Files (CRITICAL FIX)
+        run: cp -a themes/starter-academic/* . || true
 
       - name: Build with Hugo
         env:

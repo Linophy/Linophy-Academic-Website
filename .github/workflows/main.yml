@@ -33,6 +33,13 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
+      # THIS IS THE CRUCIAL FIX: Setting up the Node.js environment explicitly
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # Use a stable LTS version
+          cache: 'npm'
+
       - name: Install Hugo
         run: |
           mkdir -p $HOME/bin

@@ -15,6 +15,12 @@ pronouns:
 # Status emoji
 status:
   icon: 
+# Profile picture
+image:
+  caption: 'L. Uchush'
+  filename: my_photo.jpg # <--- YOUR NEW FILENAME
+  focal_point: Smart
+  preview_only: false
 
 # Is this the primary user of the site?
 superuser: true
